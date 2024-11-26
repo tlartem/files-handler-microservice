@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "fastapi-media-handler"
+version = "0.1.0"
+description = ""
+authors = ["tlartem <tlartem@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+SQLAlchemy = "^2.0.36"
+pydantic = "^2.10.1"
+aiofiles = "^24.1.0"
+pydantic-settings = "^2.6.1"
+asyncpg = "^0.30.0"
+python-multipart = "^0.0.17"
+aiobotocore = "^2.15.2"
+celery = "^5.4.0"
+redis = "^5.2.0"
+httpx = "^0.27.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+pytest = "^8.3.3"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
