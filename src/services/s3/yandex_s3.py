@@ -8,7 +8,7 @@ import aiofiles
 from aiobotocore.client import AioBaseClient
 
 from src.config import settings
-from src.services.s3.storage_protocol import CloudStorageProvider
+from src.services.s3.storage_interface import CloudStorageProvider
 
 
 class YandexCloudProvider(CloudStorageProvider):
